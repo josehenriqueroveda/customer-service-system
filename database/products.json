@@ -1,0 +1,242 @@
+{
+    "Azure Dream": {
+        "crop": "soybean",
+        "brand": "Prairie Farms",
+        "hybrid": "Azure Dream",
+        "cycle": "Normal",
+        "characteristics": "Drought-resistant",
+        "price": 200.0
+    },
+    "Azure Breeze": {
+        "crop": "soybean",
+        "brand": "Prairie Farms",
+        "hybrid": "Azure Breeze",
+        "cycle": "Normal",
+        "characteristics": "High yield",
+        "price": 210.0
+    },
+    "Harvest Gold": {
+        "crop": "soybean",
+        "brand": "Harvest Fields",
+        "hybrid": "Harvest Gold",
+        "cycle": "Early",
+        "characteristics": "Disease-resistant",
+        "price": 220.0
+    },
+    "Sunny Fields": {
+        "crop": "soybean",
+        "brand": "Sunset Seeds",
+        "hybrid": "Sunny Fields",
+        "cycle": "Normal",
+        "characteristics": "Early maturing",
+        "price": 215.0
+    },
+    "Golden Harvest": {
+        "crop": "soybean",
+        "brand": "Golden Acres",
+        "hybrid": "Golden Harvest",
+        "cycle": "Normal",
+        "characteristics": "Drought-tolerant",
+        "price": 205.0
+    },
+    "Amber Glow": {
+        "crop": "soybean",
+        "brand": "Harvest Fields",
+        "hybrid": "Amber Glow",
+        "cycle": "Late",
+        "characteristics": "High protein content",
+        "price": 225.0
+    },
+    "Radiant Sun": {
+        "crop": "soybean",
+        "brand": "Radiant Seeds",
+        "hybrid": "Radiant Sun",
+        "cycle": "Normal",
+        "characteristics": "Excellent standability",
+        "price": 215.0
+    },
+    "Velvet Dream": {
+        "crop": "soybean",
+        "brand": "Velvet Acres",
+        "hybrid": "Velvet Dream",
+        "cycle": "Early",
+        "characteristics": "Uniform maturity",
+        "price": 210.0
+    },
+    "Harmony Bliss": {
+        "crop": "soybean",
+        "brand": "Harmony Farms",
+        "hybrid": "Harmony Bliss",
+        "cycle": "Normal",
+        "characteristics": "High oil content",
+        "price": 220.0
+    },
+    "Sunburst Joy": {
+        "crop": "soybean",
+        "brand": "Sunburst Seeds",
+        "hybrid": "Sunburst Joy",
+        "cycle": "Late",
+        "characteristics": "Good disease resistance",
+        "price": 215.0
+    },
+    "Golden Blaze": {
+        "crop": "corn",
+        "brand": "Prairie Farms",
+        "hybrid": "Golden Blaze",
+        "cycle": "Normal",
+        "characteristics": "Drought-resistant",
+        "price": 200.0
+    },
+    "Amber Harvest": {
+        "crop": "corn",
+        "brand": "Harvest Fields",
+        "hybrid": "Amber Harvest",
+        "cycle": "Early",
+        "characteristics": "High yield",
+        "price": 220.0
+    },
+    "Starfire Gold": {
+        "crop": "corn",
+        "brand": "Sunset Seeds",
+        "hybrid": "Starfire Gold",
+        "cycle": "Normal",
+        "characteristics": "Pest-resistant",
+        "price": 230.0
+    },
+    "Crimson Sun": {
+        "crop": "corn",
+        "brand": "Sunrise Agriculture",
+        "hybrid": "Crimson Sun",
+        "cycle": "Late",
+        "characteristics": "Heat-tolerant",
+        "price": 220.0
+    },
+    "Thunderstrike": {
+        "crop": "corn",
+        "brand": "Stormy Fields",
+        "hybrid": "Thunderstrike",
+        "cycle": "Normal",
+        "characteristics": "High-quality grains",
+        "price": 240.0
+    },
+    "Evergreen Giant": {
+        "crop": "corn",
+        "brand": "Green Valley Farms",
+        "hybrid": "Evergreen Giant",
+        "cycle": "Late",
+        "characteristics": "Growth vigor",
+        "price": 230.0
+    },
+    "Radiant Maize": {
+        "crop": "corn",
+        "brand": "Radiant Seeds",
+        "hybrid": "Radiant Maize",
+        "cycle": "Normal",
+        "characteristics": "High starch content",
+        "price": 220.0
+    },
+    "Velvet Sky": {
+        "crop": "corn",
+        "brand": "Velvet Acres",
+        "hybrid": "Velvet Sky",
+        "cycle": "Early",
+        "characteristics": "Uniform kernel size",
+        "price": 210.0
+    },
+    "Solar Flare": {
+        "crop": "corn",
+        "brand": "Solar Seeds",
+        "hybrid": "Solar Flare",
+        "cycle": "Normal",
+        "characteristics": "Excellent stalk strength",
+        "price": 230.0
+    },
+    "Moonlit Mirage": {
+        "crop": "corn",
+        "brand": "Lunar Farms",
+        "hybrid": "Moonlit Mirage",
+        "cycle": "Late",
+        "characteristics": "Large ear size",
+        "price": 240.0
+    },
+    "Ember Glow": {
+        "crop": "sorghum",
+        "brand": "Harvest Fields",
+        "hybrid": "Ember Glow",
+        "cycle": "Normal",
+        "characteristics": "Drought-tolerant",
+        "price": 210.0
+    },
+    "Twilight Whisper": {
+        "crop": "sorghum",
+        "brand": "Sunset Seeds",
+        "hybrid": "Twilight Whisper",
+        "cycle": "Late",
+        "characteristics": "High yield",
+        "price": 220.0
+    },
+    "Ruby Rain": {
+        "crop": "sorghum",
+        "brand": "Red River Farms",
+        "hybrid": "Ruby Rain",
+        "cycle": "Early",
+        "characteristics": "Pest-resistant",
+        "price": 230.0
+    },
+    "Shadow Dancer": {
+        "crop": "sorghum",
+        "brand": "Moonlight Acres",
+        "hybrid": "Shadow Dancer",
+        "cycle": "Normal",
+        "characteristics": "Heat-tolerant",
+        "price": 220.0
+    },
+    "Mystic Mist": {
+        "crop": "sorghum",
+        "brand": "Misty Fields",
+        "hybrid": "Mystic Mist",
+        "cycle": "Late",
+        "characteristics": "High-quality grains",
+        "price": 240.0
+    },
+    "Scarlet Serenade": {
+        "crop": "sorghum",
+        "brand": "Sunset Seeds",
+        "hybrid": "Scarlet Serenade",
+        "cycle": "Normal",
+        "characteristics": "Growth vigor",
+        "price": 230.0
+    },
+    "Midnight Magic": {
+        "crop": "sorghum",
+        "brand": "Nightfall Farms",
+        "hybrid": "Midnight Magic",
+        "cycle": "Early",
+        "characteristics": "Adaptability",
+        "price": 210.0
+    },
+    "Whispering Wind": {
+        "crop": "sorghum",
+        "brand": "Gentle Breezes",
+        "hybrid": "Whispering Wind",
+        "cycle": "Normal",
+        "characteristics": "Tall stalks",
+        "price": 220.0
+    },
+    "Enchanted Flame": {
+        "crop": "sorghum",
+        "brand": "Enchanted Seeds",
+        "hybrid": "Enchanted Flame",
+        "cycle": "Late",
+        "characteristics": "Excellent tillering",
+        "price": 240.0
+    },
+    "Velvet Veil": {
+        "crop": "sorghum",
+        "brand": "Velvet Acres",
+        "hybrid": "Velvet Veil",
+        "cycle": "Normal",
+        "characteristics": "Uniform panicle size",
+        "price": 230.0
+    }
+}
