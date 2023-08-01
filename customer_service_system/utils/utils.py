@@ -1,6 +1,6 @@
 import json
 
-with open(r"../database/products.json") as f:
+with open(r"../data/products.json") as f:
     PRODUCTS = json.load(f)
 
 

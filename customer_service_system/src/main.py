@@ -87,7 +87,7 @@ def main():
         elif option == "2":
             score = input("Please rate our service (1-10): ")
             feedback = input("Enter your feedback: ")
-            with open("../database/nps_answers.csv", "a") as f:
+            with open("../data/nps_answers.csv", "a") as f:
                 f.write(f'{score},"{feedback}"\n')
             print("Thank you for your feedback!")
             f.close()
