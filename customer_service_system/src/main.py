@@ -4,7 +4,7 @@ import openai
 from openai.openai_object import OpenAIObject
 from dotenv import load_dotenv, find_dotenv
 
-from utils import PRODUCTS, TITLE
+from customer_service_system.utils.utils import PRODUCTS, TITLE
 
 
 load_dotenv(find_dotenv())
@@ -40,16 +40,18 @@ class CustomerServiceSys:
         If you are not sure of the answer, \
         you can respond with "I am not sure, can you provide more details?". \
         """
-    
 
     def add_user_message(self, message: str) -> None:
-        self.messages.append({
-            "role": "user",
-            "content": f"{self.delimiter}{message}{self.delimiter}",
-        })
+        self.messages.append(
+            {
+                "role": "user",
+                "content": f"{self.delimiter}{message}{self.delimiter}",
+            }
+        )
 
-    
-    def get_completion(self, model="gpt-3.5-turbo", temperature=0, max_tokens=500) -> str | None:
+    def get_completion(
+        self, model="gpt-3.5-turbo", temperature=0, max_tokens=500
+    ) -> str | None:
         response = openai.ChatCompletion.create(
             model=model,
             messages=self.messages,
@@ -59,12 +61,11 @@ class CustomerServiceSys:
         if isinstance(response, OpenAIObject):
             return response.choices[0].message["content"]
         return None
-    
 
     def answer(self, message: str) -> str | None:
         self.add_user_message(message)
         return self.get_completion()
-    
+
 
 def main():
     print(TITLE)
@@ -87,7 +88,7 @@ def main():
             score = input("Please rate our service (1-10): ")
             feedback = input("Enter your feedback: ")
             with open("../database/nps_answers.csv", "a") as f:
-                f.write(f"{score},\"{feedback}\"\n")
+                f.write(f'{score},"{feedback}"\n')
             print("Thank you for your feedback!")
             f.close()
             break
@@ -97,4 +98,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    

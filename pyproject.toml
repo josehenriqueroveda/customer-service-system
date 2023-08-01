@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "customer-service-system"
+version = "0.1.0"
+description = "This is a customer service system that acts as a customer service representative for a seed company. It provides answers to customer service queries based on the products and its characteristics. It also contains a NPS analyzer that calculates the NPS based on customer feedback and generates an NPS chart. It uses OpenAI's GPT-3 model to summarize the feedback and calculate the NPS."
+authors = ["Jose Henrique Roveda"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "customer_service_system"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+matplotlib = "^3.7.2"
+ipykernel = "^6.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
