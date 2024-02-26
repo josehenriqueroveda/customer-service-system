@@ -18,6 +18,8 @@ It also contains a **NPS analyzer** that calculates the NPS based on customer fe
 6. Enter your feedback and rating
 
 
+
+
 ### Code Information
 - `CustomerServiceSys`: A class that represents a customer service system. It contains the following methods:
 
@@ -31,14 +33,17 @@ It also contains a **NPS analyzer** that calculates the NPS based on customer fe
 
 
 ## NPS Analyzer Usage
-1. Run `poetry run nps.py`
+1. Open `ntebooks/examples.ipynb` to learn how to use the `FeedbackAnalyzer` class.
 2. Input the feedback grades and comments
 3. The system will summarize the feedback and calculate the NPS
-4. The system will generate a NPS chart based on the calculated NPS
+4. The system will generate a NPS chart based on the calculated NPS and a summary in a json object
+
+
+![](https://raw.githubusercontent.com/josehenriqueroveda/customer-service-system/main/customer_service_system/img/nps.png)
 
 
 ### Code Information
-The `nps.py` file contains the following classes and functions:
+The `models/` directory contains the following classes and functions:
 
 - `Feedback`: A dataclass that represents a feedback with a grade and a comment.
 - `FeedbackAnalyzer`: A class that contains a function to calculate the NPS based on a list of grades.
