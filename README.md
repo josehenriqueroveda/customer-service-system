@@ -4,14 +4,13 @@ It also contains a **NPS analyzer** that calculates the NPS based on customer fe
 
 ## Installation
 1. Clone the repository
-2. Install the required packages using `pip install -r requirements.txt`
-3. Create a `.env` file and add your OpenAI API key as `OPENAI_API_KEY`
-4. Run `poetry install` to install the required packages
-5. Run `poetry shell` to activate the virtual environment
+2. Create a `.env` file and add your OpenAI API key as `OPENAI_API_KEY`
+3. Run `poetry install` to install the required packages
+4. Run `poetry shell` to activate the virtual environment
 
 
 ## Customer Service System Usage
-1. Run `python main.py`
+1. Run `poetry run python main.py`
 2. Choose option **1** to talk with customer service
 3. Enter your questions regarding the products
 4. The system will provide answers based on the product characteristics
@@ -32,7 +31,7 @@ It also contains a **NPS analyzer** that calculates the NPS based on customer fe
 
 
 ## NPS Analyzer Usage
-1. Run `python nps.py`
+1. Run `poetry run nps.py`
 2. Input the feedback grades and comments
 3. The system will summarize the feedback and calculate the NPS
 4. The system will generate a NPS chart based on the calculated NPS
